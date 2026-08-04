@@ -1,11 +1,11 @@
 "use client";
 
-import { Chat } from "./components/Chat";
+import { Chat } from "./components/ChatHub";
 
 
 const Page = () => {
   return (
-    <section className=" bg-black container mx-auto h-screen flex justify-center items-center">
+    <section className="bg-black h-screen w-screen flex justify-center items-center">
         <Chat/>      
     </section>
   );

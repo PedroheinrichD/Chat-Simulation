@@ -13,7 +13,7 @@ export default function ConversaIA() {
     setUserInput('')
   }
   function handleBotChat(){
-    if(userInput === '') return
+    if(botInput === '') return
     ChatCtx?.addMessage(botInput, 'bot')
     setBotInput('')
   }

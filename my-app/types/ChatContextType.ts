@@ -2,5 +2,7 @@ import { ChatType } from "./ChatType"
 
 export type ChatContextType = {
     user: string,
-    mensagens: ChatType[]
+    messages: ChatType[],
+    addMessage: (text: string, sender:'user' | 'bot' ) => void,
+    removeMessage: (id: string) => void
 }

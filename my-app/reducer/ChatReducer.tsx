@@ -18,7 +18,7 @@ type RemoveChat = {
 };
 
 export type listActions = AddChat | RemoveChat;
-export function ReducerPosts(List: ChatType[], actions: listActions) {
+export function ChatReducer(List: ChatType[], actions: listActions) {
   // executando as ações
   switch (actions.type) {
     case "addChat":

@@ -1,6 +1,7 @@
+import { ChatContextType } from "@/types/ChatContextType"
 import { createContext, useReducer } from "react"
 
-const ChatContext = createContext(null)
+const ChatContext = createContext<ChatContextType | null>(null)
 
 function ChatProvider() {
     // const [ChatList, dispatch = useReducer();

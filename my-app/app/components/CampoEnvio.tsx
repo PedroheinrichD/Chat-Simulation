@@ -1,8 +1,7 @@
-import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 
 export function CampoEnvio() {
-  const [valor, setValor] = useState("");
+  
 
   return (
     <div className="w-full max-w-md mx-auto">
@@ -12,8 +11,8 @@ export function CampoEnvio() {
       >
         <input
           type="text"
-          value={valor}
-          onChange={(e) => setValor(e.target.value)}
+          // value={valor}
+          // onChange={(e) => setValor(e.target.value)}
           placeholder="Digite seu nome..."
           className="flex-1 bg-transparent px-4 py-2 text-sm text-neutral-800 placeholder-neutral-400 outline-none"
         />

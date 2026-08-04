@@ -1,10 +1,13 @@
+import { useChatContext } from "@/Context/ChatContext";
 import { CampoEnvio } from "./CampoEnvio";
+import ConversaIA from "./ConversaIA";
 
 export function Chat() {
+  const ChatCtx = useChatContext();
 
   return (
    <section>
-        <CampoEnvio/>
+        {ChatCtx?.user ? <ConversaIA/> : <CampoEnvio/>}
    </section>
   );
 }

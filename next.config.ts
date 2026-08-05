@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: process.env.NODE_ENV === "production" ? "/CHAT-SIMULATION" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/CHAT-SIMULATION" : "",
+  basePath: "/CHAT-SIMULATION",           // <-- EXATAMENTE igual ao nome do repo
+  assetPrefix: "/CHAT-SIMULATION",        // <-- mesma coisa aqui
   images: {
     unoptimized: true,
   },

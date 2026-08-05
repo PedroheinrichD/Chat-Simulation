@@ -1,37 +1,36 @@
-# Chat Simulation
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Uma aplicação desenvolvida para praticar gerenciamento de estado no React utilizando Context API e `useReducer`, simulando uma conversa entre um usuário e um assistente virtual.
+## Getting Started
 
-## Funcionalidades
+First, run the development server:
 
-* Cadastro do nome do usuário.
-* Simulação de envio de mensagens do usuário e do bot.
-* Renderização dinâmica das mensagens.
-* Persistência dos dados utilizando `localStorage`.
-* Interface responsiva construída com Tailwind CSS.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Tecnologias
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
-* Context API
-* useReducer
-* Local Storage
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Objetivos de aprendizado
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Este projeto foi desenvolvido com foco em praticar:
+## Learn More
 
-* Compartilhamento de estado com Context API.
-* Gerenciamento de estados complexos utilizando `useReducer`.
-* Persistência de dados no navegador com `localStorage`.
-* Manipulação de eventos e formulários.
-* Renderização condicional e listas no React.
-* Organização de componentes e separação de responsabilidades.
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-<img width="370" height="557" alt="Image" src="https://github.com/user-attachments/assets/17ba1ec1-b0ac-4b1c-a2b6-f0d7fddba244" />
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

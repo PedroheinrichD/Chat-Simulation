@@ -17,7 +17,12 @@ type RemoveChat = {
   };
 };
 
-export type listActions = AddChat | RemoveChat;
+type setMessage = {
+  type: "setMessage";
+  payload: ChatType[]
+};
+
+export type listActions = AddChat | RemoveChat | setMessage;
 export function ChatReducer(List: ChatType[], actions: listActions) {
   // executando as ações
   switch (actions.type) {
@@ -34,6 +39,8 @@ export function ChatReducer(List: ChatType[], actions: listActions) {
       case "removeChat":
         return List.filter((item) => actions.payload.id !== item.id)
       
+      case "setMessage":
+        return actions.payload
 
     default:
       return List;

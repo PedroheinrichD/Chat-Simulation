@@ -31,5 +31,6 @@ Este projeto foi desenvolvido com foco em praticar:
 * Renderização condicional e listas no React.
 * Organização de componentes e separação de responsabilidades.
 
+<img width="370" height="557" alt="Image" src="https://github.com/user-attachments/assets/17ba1ec1-b0ac-4b1c-a2b6-f0d7fddba244" />
 
-
+PAGES -> https://pedroheinrichd.github.io/Chat-Simulation/
